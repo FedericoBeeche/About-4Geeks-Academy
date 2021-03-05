@@ -1,0 +1,144 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Federico
+    last_name: Beeche
+    
+    # Define yourself in 4-5 words
+    motto: I love learning and gaming.
+    
+    # focus
+    focus: Have fun and learn.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a digital animator with over 3 years of experience in the digital marketing, animation, and live-production world. I love playing video games and I'm on my way to learn how to make them now that I have studied the artistic part of it. I love technology and learning programming has always been my dream. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/lego/4.jpg
+
+    # Contact Information
+    email: fbeeche@gmail.com #optional
+    phone: +506 87106457 #optional
+    website: github.com/FedericoBeeche #optional
+    linkedin: https://www.linkedin.com/in/federico-beeche-a0884415b/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: FedericoBeeche
+    
+    twitter: 'beechito' #optional
+    stack-overflow: beeche # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Computer Graphics
+
+      - item: Video Games
+
+      - item: Sports
+
+# Your previous education
+education:
+    - degree: Bachelor in Digital Animation
+      university: Universidad Veritas
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2020
+      details: |
+        I studied digital animation, I am able to create all types of animations from 2D to 3D, motion graphics, plan productions, and more. 
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Digital Animator
+      time: 2021 - Present
+      company: OlaAzul Marketing, Santa Ana, Costa Rica
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I am a digital animator creating 2D animated motion graphics and also acting as a back-up for the graphic design team.
+
+    - role: Sr Digital Animator
+      time: 2018 - 2021
+      company: Advision Development, Santa Ana, Costa Rica
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I worked as a digital animator creating assets, animations, and videos for the company's YouTube channel. Besides that worked as a live video producer for the company's shows, made sure to set up the studio, cameras, lights, presenters, etc.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: 2D motion graphics
+        level: Advanced
+
+      - name: Live video production
+        level: Advanced
+
+      - name: General 3D animation and production
+        level: Intermediate
+
+      - name: HTML5 & CSS
+        level: Begginer
+
+      - name: JavaScript
+        level: Begginer
+
+      - name: Adobe Tools (Photoshop & After Effects)
+        level: Advanced
